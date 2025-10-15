@@ -1,8 +1,7 @@
 [package]
 name = "CetusClmm"
 version = "mainnet-v1.3.0"
-edition = "2024.beta"
-published-at = "0xdb5cd62a06c79695bfc9982eb08534706d3752fe123b48e0144f480209b3117f"
+edition = "2024"
 
 [dependencies]
 MoveSTL = { git = "https://github.com/CetusProtocol/move-stl.git", rev = "mainnet-v1.3.0", override = true }
