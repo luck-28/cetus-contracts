@@ -65,6 +65,27 @@ sui client publish --gas-budget 100000000
 
 ```
 
+### Integration
+
+To integrate the **Cetus CLMM** package into your Move project, you can choose one of the following methods:
+
+#### Option 1 — Add via Move Registry (Recommended)
+
+```bash
+mvr add @cetuspackages/clmm
+```
+
+#### Option 2 — Add as Git Dependency
+```
+[dependencies]
+CetusClmm = { 
+    git = "https://github.com/CetusProtocol/cetus-contracts.git", 
+    subdir = "packages/cetus_clmm", 
+    rev = "clmm-v14" 
+}
+```
+This method allows you to track a specific version (rev) and inspect or modify the source locally if needed.
+
 ## Project Structure
 
 ```
