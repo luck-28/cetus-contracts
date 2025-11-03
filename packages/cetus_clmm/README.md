@@ -72,7 +72,7 @@ To integrate the **Cetus CLMM** package into your Move project, you can choose o
 #### Option 1 — Add via Move Registry (Recommended)
 
 ```bash
-mvr add @cetuspackages/clmm
+mvr add @cetuspackages/clmm --network mainnet
 ```
 
 #### Option 2 — Add as Git Dependency
