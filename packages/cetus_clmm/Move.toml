@@ -4,7 +4,7 @@ version = "mainnet-v1.3.0"
 edition = "2024"
 
 [dependencies]
-MoveSTL = { git = "https://github.com/CetusProtocol/move-stl.git", rev = "mainnet-v1.3.0", override = true }
+CetusMoveSTL = { git = "https://github.com/luck-28/move-stl.git", rev = "main", override = true }
 CetusIntegerMate = { git = "https://github.com/luck-28/cetus-integer-mate.git", rev = "main", override = true }
 
 [addresses]
